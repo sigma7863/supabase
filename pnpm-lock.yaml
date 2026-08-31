@@ -10730,6 +10730,7 @@ packages:
 
   configcat-common@9.3.1:
     resolution: {integrity: sha512-yVkIbluksD/kZfVyKjLIOpwLrq3/ZRM7Lwrsz89JmbpQ6VtbnelrTQynSPElTtKjrPRZx56v3IZYk3nWTnnM6A==}
+    deprecated: Official support for this package has ended. Please migrate to @configcat/sdk. For more information, see https://github.com/configcat/js-unified-sdk#getting-started
 
   configcat-js@9.5.1:
     resolution: {integrity: sha512-M7ZPMtS+wCJLsFwcMkXa/ka+r/uEbN5MYS1FEnnlM2cohvpR2vpvvSMe0fuhc83HDgXJari08LyRXay0k0S80g==}
@@ -35983,7 +35984,7 @@ snapshots:
   sirv@3.0.2:
     dependencies:
       '@polka/url': 1.0.0-next.25
-      mrmime: 2.0.0
+      mrmime: 2.0.1
       totalist: 3.0.1
 
   sisteransi@1.0.5: {}
